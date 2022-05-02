@@ -1,0 +1,54 @@
+.navbar {
+    font-family: Arial;
+    display: flex;
+    flex-wrap: wrap;
+    /*Allows the children inside a flex container to wrap down onto the next line if there is not enough space.*/
+    align-items: center;
+    /*Centers the children of a flex container vertically.*/
+    justify-content: space-around;
+    /*Adds space between each child of a flex container.*/
+    flex-direction: row;
+    background-color: #fff;
+
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    box-shadow: #696969 0px 0px 5px;
+    top: 0;
+
+}
+
+.navbar a {
+
+    text-decoration: none;
+    color: inherit;
+    /*Inherits the same color as the parent element or grandparent (the body) unless you set the color to the navbar.*/
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #232323;
+    margin-right: 50%
+}
+
+.list {
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #232323;
+
+    padding-right: 25px;
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    /*Applies right and bottom spacing between children inside a flex or grid container.*/
+}
+
+#toggler,
+.navbar label {
+    color: #232323;
+    display: none;
+    /*Hide the checkbox and label on large screens.*/
+}

@@ -1,0 +1,173 @@
+
+ 
+ /* 100% Image Width on Smaller Screens */
+ @media only screen and (max-width: 700px) {
+     .modal-content {
+         width: 100%;
+     }
+
+     .close {
+         top: 60px;
+     }
+ }
+
+ //end of animation for the icons
+
+ @media screen and (max-width: 604.8px) {
+     .navbar {
+         padding-block: 10px;
+         flex-direction: column;
+
+     }
+
+     .logo {
+         margin: 0 auto;
+     }
+
+     .menu {
+         width: 100%;
+         max-height: 0;
+         /*Makes the max-height 0 to side the expanded menu.*/
+         overflow: hidden;
+         /*Hides the overflowing content.*/
+     }
+
+     .list {
+         flex-direction: column;
+         /*Chances the direction of the flex container. By default it is a row so we change it to column in small screens.*/
+         align-items: center;
+         padding: 20px;
+     }
+
+     .navbar label {
+         display: inline-flex;
+         /*Makes it an inline flex container for the icon. Used for centering the icon inside this box.*/
+         align-items: center;
+         cursor: pointer;
+     }
+
+     /* 
+        The general sibling selector (~) selects all elements that are next siblings of #toggler.
+        In this case we target the .menu and we turn the height back to 100% to show the menu.
+    */
+     #toggler:checked~.menu {
+         max-height: 100%;
+     }
+
+     .perspective-text {
+         font-size: 50px;
+     }
+
+
+     .container-about-hobby-grid {
+         grid-template-columns: 1fr;
+     }
+
+     .about-detail {
+         legend {
+             font-size: 30px;
+         }
+     }
+
+     .about-icon {
+         font-size: 50px;
+         letter-spacing: 10px;
+
+     }
+
+     .hobby-detail {
+         legend {
+             font-size: 30px;
+         }
+     }
+
+     .hobby-icon {
+
+         font-size: 50px;
+         letter-spacing: 10px;
+     }
+
+     .img-container {
+         position: static;
+         margin-top: 10px;
+         width: 50%;
+         height: 100%;
+
+         img {
+             width: 100%;
+             height: 100%;
+             border-radius: 50%;
+             margin-bottom: 30px;
+         }
+     }
+
+     .skill-detail {
+
+         legend {
+             font-size: 30px;
+         }
+
+         img {
+             width: 30%;
+             padding-top: 30px;
+         }
+     }
+
+     .skill-icon {
+         font-size: 60px;
+
+         span {
+             padding: 20px 10px;
+         }
+     }
+
+
+     //modal ================================
+     .img-modal-detail {
+
+         legend {
+             font-size: 30px;
+         }
+     }
+
+     /* The Close Button */
+     .close {
+         position: absolute;
+         top: 75px;
+         right: 35px;
+         color: #f1f1f1;
+         font-size: 20px;
+         font-weight: bold;
+         transition: 0.3s;
+     }
+//end modal ===================================
+     .container-tnk-wu-grid {
+         grid-template-columns: 1fr;
+     }
+
+     .tnk-container-item {
+         p {
+             font-size: 20px;
+         }
+     }
+
+     .wu-container-item {
+         margin-top: 30px;
+
+         p {
+             font-size: 20px;
+         }
+     }
+
+     .footer-content {
+         p {
+                font-size: 10px;
+         }
+     }
+     .footer-bottom {
+        p {
+            font-size: 12px;
+        }
+
+    }
+}

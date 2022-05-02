@@ -1,0 +1,356 @@
+.container-detail {
+    padding-top: 30px;
+}
+
+.img-container {
+    width: 20%;
+    margin: 0 auto;
+
+
+}
+
+.img-detail {
+    width: 90%;
+    margin: 0 auto;
+
+    img {
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        display: block;
+        margin: 0 auto;
+        filter: drop-shadow(0 0 0.75rem rgb(151, 151, 151));
+    }
+
+}
+
+.container-about-hobby-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 5fr);
+}
+
+//about ============================================================
+.about-container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.about-detail {
+    font-family: Arial;
+    text-transform: uppercase;
+
+    fieldset {
+        border-radius: 15px;
+        border: 2px solid #696969;
+    }
+
+    legend {
+
+        font-size: 50px;
+        font-weight: 900;
+        letter-spacing: -2px;
+
+    }
+}
+
+.about-icon {
+    font-size: 56.7px;
+    animation: float 5s ease-in-out infinite;
+    letter-spacing: 20px;
+    padding-right: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    list-style: none;
+
+    .name {
+        color: #FF6FB5;
+    }
+
+    .age {
+        color: rgb(109, 37, 143);
+    }
+
+    .university {
+        color: rgb(197, 86, 7);
+    }
+}
+
+
+#tooltip {
+    position: relative;
+
+    .name-tooltiptext,
+    .age-tooltiptext,
+    .university-tooltiptext {
+        font-size: 10px;
+        font-family: Arial;
+        letter-spacing: normal;
+        visibility: hidden;
+        width: 150px;
+        color: #fff;
+        text-align: center;
+        border-radius: 6px;
+        padding: 10px 0;
+
+        /* Position the tooltip */
+        position: absolute;
+        z-index: 1;
+
+        //TOP
+        bottom: 110%;
+        left: 20%;
+        margin-left: -60px;
+
+    }
+
+    .name-tooltiptext {
+        background: #FF6FB5;
+    }
+
+    .age-tooltiptext {
+        background: rgb(109, 37, 143);
+    }
+
+    .university-tooltiptext {
+        background: rgb(197, 86, 7);
+    }
+
+    &:hover .name-tooltiptext,
+    &:hover .age-tooltiptext,
+    &:hover .university-tooltiptext {
+        visibility: visible;
+    }
+}
+
+// end about ============================================================
+
+
+//hobby ============================================================
+.hobby-container {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.hobby-detail {
+    font-family: Arial;
+    text-transform: uppercase;
+
+    fieldset {
+        border: 2px solid #696969;
+        border-radius: 15px;
+    }
+
+    legend {
+
+        font-size: 50px;
+        font-weight: 900;
+        letter-spacing: -2px;
+
+    }
+
+}
+
+.hobby-icon {
+    font-size: 56.7px;
+    letter-spacing: 20px;
+    animation: float 5s ease-in-out infinite;
+
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    list-style: none;
+}
+
+//end hobby ============================================================
+
+
+//skill ============================================================
+.skill-container {
+    width: 90%;
+    margin: 30px auto;
+
+}
+
+.skill-detail {
+    fieldset {
+        border-radius: 15px;
+        border: 2px solid #696969;
+    }
+
+    legend {
+        font-family: Arial;
+        font-size: 50px;
+        font-weight: 900;
+        letter-spacing: -2px;
+        text-transform: uppercase;
+    }
+
+    img {
+        width: 10%;
+        display: block;
+        margin: 0 auto;
+    }
+
+}
+
+.skill-icon {
+    margin: 50px auto;
+    width: auto;
+
+    font-size: 5rem;
+    animation: float 5s ease-in-out infinite;
+    display: flex;
+    justify-content: center;
+
+    span {
+        padding: 10px;
+    }
+
+
+}
+
+//end skill ============================================================
+
+
+//activity ============================================================
+.container-tnk-wu {
+    margin-top: 60px;
+}
+
+.container-tnk-wu-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 5fr);
+}
+
+.tnk-container-item {
+    background-image: url(/img/tnk.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    margin: 0 auto;
+    width: 80%;
+    height: 300px;
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+
+    p {
+        font-size: 30px;
+        font-weight: 900;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        text-align: center;
+        color: #fff;
+        z-index: 1;
+    }
+}
+
+.tnk-black {
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+}
+
+.wu-container-item {
+    background-image: url(/img/wu.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    margin: 0 auto;
+    width: 80%;
+    height: 300px;
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+
+    p {
+        font-size: 30px;
+        font-weight: 900;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        text-align: center;
+        color: #fff;
+        z-index: 1;
+    }
+}
+
+.wu-black {
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+}
+//end activity ============================================================
+
+//btn activity ============================================================
+.btn {
+    position: relative;
+    display: inline-block;
+    width: auto;
+    height: auto;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    min-width: 150px;
+    z-index: 999;
+
+    span {
+        position: relative;
+        display: inline-block;
+        font-size: 14px;
+        font-weight: bold;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        width: 100%;
+        padding: 15px 0;
+        transition: 0.3s;
+
+        color: rgb(28, 31, 30);
+        border: 1px rgb(255, 255, 255) solid;
+        transition: 0.2s 0.1s;
+
+        &:hover {
+            color: rgb(255, 255, 255);
+            transition: 0.2s 0.1s;
+
+        }
+    }
+
+    &::before {
+        background-color: rgb(255, 255, 255);
+        transition: 0.3s ease-in-out;
+        position: absolute;
+        content: " ";
+
+    }
+}
+
+.hover-filled-slide-left::before {
+
+    height: 100%;
+    width: 93%;
+}
+
+.btn.hover-filled-slide-left:hover::before {
+    width: 0;
+}
+//end btn activity ============================================================

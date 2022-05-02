@@ -1,0 +1,176 @@
+footer {
+    margin-top: 50px;
+    background: #232323;
+    height: auto;
+    width: 100%;
+    bottom: 0;
+    padding-top: 40px;
+    color: #fff;
+    font-family: Arial;
+
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+
+
+    h3 {
+        font-size: 30px;
+        font-weight: 600;
+        text-transform: capitalize;
+        line-height: 3rem;
+
+    }
+
+    p {
+        max-width: 500px;
+        margin: 10px auto;
+        line-height: 28px;
+        font-size: 14px;
+
+    }
+}
+
+.footer-bottom {
+    background: #484848;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+
+    p {
+        font-size: 14;
+        word-spacing: 2px;
+        text-transform: capitalize;
+    }
+
+    span {
+        text-transform: uppercase;
+        opacity: .4;
+        font-weight: 200;
+    }
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    animation: float 5s ease-in-out infinite;
+}
+
+// animation for the icons
+
+@keyframes float {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-15px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+
+.f,
+.t,
+.i,
+.g {
+    padding: 30px;
+    font-size: 40px;
+}
+
+
+.f {
+    animation-delay: 1s;
+
+    #link-icon {
+        color: #ffffff;
+    }
+
+    #link-icon:hover {
+        transform: scale(1.5);
+        color: rgb(52, 64, 236);
+    }
+}
+
+.t {
+    animation-delay: 2s;
+
+    #link-icon {
+        color: #ffffff;
+    }
+
+    #link-icon:hover {
+        transform: scale(1.5);
+        color: rgb(42, 170, 255);
+    }
+}
+
+.i {
+    animation-delay: 1s;
+
+    #link-icon {
+        color: #ffffff;
+    }
+
+    #link-icon:hover {
+        transform: scale(1.5);
+        color: fuchsia;
+    }
+}
+
+.g {
+    animation-delay: 2s;
+
+    #link-icon {
+        color: #ffffff;
+    }
+
+    #link-icon:hover {
+        transform: scale(1.5);
+        color: rgb(144, 255, 96);
+    }
+}
+
+.html {
+    animation-delay: 1s;
+    color: #f1672c;
+}
+
+.css {
+    animation-delay: 2s;
+    color: #2965f1;
+}
+
+.js {
+    animation-delay: 1s;
+    color: #f1bf26;
+}
+
+.python {
+    animation-delay: 2s;
+    color: #366f9f;
+}
+
+.basketball {
+    animation-delay: 1s;
+    color: #d25925;
+}
+
+.game {
+    animation-delay: 2s;
+    color: #d2514a;
+}
+
+.code {
+    animation-delay: 1s;
+    color: #8271ff;
+}
