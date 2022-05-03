@@ -35,7 +35,7 @@
     text-transform: uppercase;
 }
 
-@media screen and (max-width: 604.8px) {
+@media only screen and (max-width: 500px) {
     
     // page2 =================================================
         .wu-text {
@@ -43,4 +43,5 @@
            }
     
        }
+    
     
