@@ -171,7 +171,7 @@ footer {
 .t,
 .i,
 .g {
-  padding: 30px;
+  padding: 20px;
   font-size: 40px;
 }
 
@@ -979,7 +979,7 @@ footer {
     max-height: 100%;
   }
   .perspective-text {
-    font-size: 50px;
+    font-size: 40px;
   }
   .container-about-hobby-grid {
     -ms-grid-columns: 1fr;
@@ -1056,6 +1056,12 @@ footer {
   }
   .footer-bottom p {
     font-size: 12px;
+  }
+  .f,
+  .t,
+  .i,
+  .g {
+    font-size: 30px;
   }
 }
 
