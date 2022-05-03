@@ -979,8 +979,8 @@ footer {
     max-height: 100%;
   }
   .perspective-text {
-    margin-right: 50px;
-    font-size: 48px;
+    margin-right: 55px;
+    font-size: 50px;
   }
   .container-about-hobby-grid {
     -ms-grid-columns: 1fr;
@@ -990,14 +990,14 @@ footer {
     font-size: 30px;
   }
   .about-icon {
-    font-size: 50px;
+    font-size: 45px;
     letter-spacing: 10px;
   }
   .hobby-detail legend {
     font-size: 30px;
   }
   .hobby-icon {
-    font-size: 50px;
+    font-size: 45px;
     letter-spacing: 10px;
   }
   .img-container {
