@@ -932,7 +932,7 @@ footer {
   }
 }
 
-@media only screen and (max-width: 500px) {
+@media screen and (max-width: 500px) {
   .navbar {
     padding-block: 10px;
     -webkit-box-orient: vertical;
@@ -979,7 +979,7 @@ footer {
     max-height: 100%;
   }
   .perspective-text {
-    font-size: 40px;
+    font-size: 50px;
   }
   .container-about-hobby-grid {
     -ms-grid-columns: 1fr;
