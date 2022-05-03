@@ -923,7 +923,7 @@ footer {
 }
 
 /* 100% Image Width on Smaller Screens */
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 500px) {
   .modal-content {
     width: 100%;
   }
@@ -932,7 +932,7 @@ footer {
   }
 }
 
-@media screen and (max-width: 604.8px) {
+@media only screen and (max-width: 500px) {
   .navbar {
     padding-block: 10px;
     -webkit-box-orient: vertical;
@@ -979,7 +979,7 @@ footer {
     max-height: 100%;
   }
   .perspective-text {
-    font-size: 50px;
+    font-size: 40px;
   }
   .container-about-hobby-grid {
     -ms-grid-columns: 1fr;
