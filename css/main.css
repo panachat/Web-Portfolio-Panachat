@@ -932,7 +932,7 @@ footer {
   }
 }
 
-@media screen and (max-width: 500px) {
+@media only screen and (max-width: 500px) {
   .navbar {
     padding-block: 10px;
     -webkit-box-orient: vertical;
@@ -1064,7 +1064,7 @@ footer {
   }
 }
 
-@media screen and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
   .navbar {
     padding-block: 10px;
     -webkit-box-orient: vertical;
