@@ -42,3 +42,9 @@
     font-size: 30px;
   }
 }
+
+@media only screen and (max-width: 768px) {
+  .tnk-text {
+    font-size: 45px;
+  }
+}
