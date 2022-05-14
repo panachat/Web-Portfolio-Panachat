@@ -26,7 +26,7 @@
 
 .container-about-hobby-grid {
     display: grid;
-    grid-template-columns: repeat(2, 5fr);
+    grid-template-columns:(5fr 5fr);
 }
 
 //about ============================================================
@@ -223,7 +223,7 @@
 
 .container-tnk-wu-grid {
     display: grid;
-    grid-template-columns: repeat(2, 5fr);
+    grid-template-columns: (5fr 5fr);
 }
 
 .tnk-container-item {
